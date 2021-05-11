@@ -22,7 +22,7 @@
   ],
   "rules": {
     "camelcase": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": 0,
     "arrow-body-style": "off",
     "prefer-arrow-callback": "off",
     "@typescript-eslint/naming-convention": [
@@ -39,19 +39,6 @@
       }
     ],
     "import/no-unresolved": "error",
-    "@typescript-eslint/naming-convention": [
-      "error",
-      {
-        "selector": "interface",
-        "format": [
-          "PascalCase"
-        ],
-        "custom": {
-          "regex": "^I[A-Z]",
-          "match": true
-        }
-      }
-    ],
     "class-methods-use-this": "off",
     "import/prefer-default-export": "off",
     "no-shadow": "off",
